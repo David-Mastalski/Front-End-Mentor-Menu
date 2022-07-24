@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Remote Work</title>
+
+    <link rel="shortcut icon" href="images/shortcut-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/5e7b60bd46.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="layout">
+            <nav class="nav-bar">
+                <div class="mobile-nav-bar">
+                     <img src="images/logo.svg" alt="Logo">
+                     <button class="menu-btn" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                         <svg viewBox="0 0 100 100">
+                           <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                           <path class="line line2" d="M 20,50 H 80" />
+                           <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                         </svg>
+                     </button>
+                </div>
+                <div class="mobile-nav">
+                     <ul class="drop-down">
+                         <li class="drop-down-btns features-btn">
+                             <div class="drop-down-btn">
+                                 Features <img src="images/icon-arrow-down.svg" alt="arrow-down">
+                             </div>
+                             <ol class="drop-down-content features-option">
+                                 <li>
+                                     <a href="#">
+                                         <img src="images/icon-todo.svg" alt="To Do List"> To Do List
+                                     </a>
+                                 </li>
+                                 <li>
+                                     <a href="#">
+                                         <img src="images/icon-calendar.svg" alt="Calendar"> Calendar
+                                     </a>
+                                 </li>
+                                 <li>
+                                     <a href="#">
+                                         <img src="images/icon-reminders.svg" alt="Rreminders"> Reminders
+                                     </a>
+                                 </li>
+                                 <li>
+                                     <a href="#">
+                                         <img src="images/icon-planning.svg" alt="Planning"> Planning
+                                     </a>
+                                 </li>
+                             </ol>
+                         </li>
+                         <li class="drop-down-btns company-btn">
+                             <div class="drop-down-btn">
+                                 Company <img src="images/icon-arrow-down.svg" alt="arrow-down">
+                             </div>
+                             <ol class="drop-down-content company-option">
+                                 <li> <a href="#"> History </a> </li>
+                                 <li> <a href="#"> Our Team </a> </li>
+                                 <li> <a href="#"> Blog </a> </li>
+                             </ol>
+                         </li>
+                         <li class="drop-down-btns"> Careers </li>
+                         <li class="drop-down-btns"> About </li>
+                     </ul>
+                     <div class="login">
+                         <button class="login-btn"> Login </button>
+                         <button class="register-btn"> Register </button>
+                     </div>
+                </div>
+             </nav>
+
+             <section class="main">
+                <div class="main-flex">
+                    <div class="main-content">
+                        <h1>Make <br> remote work</h1>
+                        <p>Get your team in sync, no matter your location. <br >Streamline processes, create team rituals, and <br> watch productivity soar </p>
+                        <div class="learn-button-contaier">
+                            <button class="learn-button"> 
+                                <span> Learn more <i class="fa-solid fa-arrow-right"></i> </span> 
+                            </button>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="#">
+                                    <img src="images/client-databiz.svg" alt="Databiz">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/client-audiophile.svg" alt="Databiz">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/client-meet.svg" alt="Databiz">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/client-maker.svg" alt="Databiz">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="image-hero">
+                    <img src="images/image-hero-desktop.png" alt="Hero-Desktop">
+                </section>
+             </section>
+        </div>
+    </header>
+    <script src="js.js"></script>
+</body>
+</html>
